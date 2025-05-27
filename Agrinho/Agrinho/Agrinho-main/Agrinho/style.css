@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f8f6f3;
+    color: #2c2c2c;
+    line-height: 1.8;
+  }
+  
+  header {
+    background-color: #1d2b2a;
+    color: #fefefe;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.5em;
+    font-style: italic;
+  }
+  
+  .section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 20px;
+  }
+  
+  .section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #3a3a3a;
+  }
+  
+  .section p {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #7a4e2d;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 30px auto;
+    display: block;
+    border-radius: 12px;
+  }
+  
+  .campo {
+    background-color: #fdfaf6;
+  }
+  
+  .cidade {
+    background-color: #f1f6f9;
+  }
+  
+  .conexao {
+    background-color: #fff2e6;
+  }
+  
+  footer {
+    background-color: #1d2b2a;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 1em;
+  }
+  
+  @media (min-width: 768px) {
+    .dual-column {
+      display: flex;
+      gap: 40px;
+    }
+  
+    .dual-column > div {
+      flex: 1;
+    }
+  }  
